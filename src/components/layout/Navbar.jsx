@@ -52,7 +52,7 @@ const Navbar = () => {
           <ThemeToggle />
           <button
             onClick={() => setMenuOpen((value) => !value)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-slate-200 bg-white text-slate-700 transition-fast hover:border-slate-300 hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-slate-200 bg-white text-slate-700 transition-fast hover:border-slate-300 hover:bg-slate-50 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200 md:hidden"
             aria-label="Toggle navigation menu"
           >
             {menuOpen ? <HiX size={24} /> : <HiMenu size={24} />}
