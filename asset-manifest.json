@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/BrandUp/static/css/main.55fcd989.css",
-    "main.js": "/BrandUp/static/js/main.3a00489a.js",
+    "main.js": "/BrandUp/static/js/main.f7e988dd.js",
     "static/js/453.8a405fc3.chunk.js": "/BrandUp/static/js/453.8a405fc3.chunk.js",
     "static/media/lightthemelogo.png": "/BrandUp/static/media/lightthemelogo.cb1ae0a381cfbab33bee.png",
     "static/media/blackthemelogo.png": "/BrandUp/static/media/blackthemelogo.fd61f53104609ba7084c.png",
     "index.html": "/BrandUp/index.html",
     "main.55fcd989.css.map": "/BrandUp/static/css/main.55fcd989.css.map",
-    "main.3a00489a.js.map": "/BrandUp/static/js/main.3a00489a.js.map",
+    "main.f7e988dd.js.map": "/BrandUp/static/js/main.f7e988dd.js.map",
     "453.8a405fc3.chunk.js.map": "/BrandUp/static/js/453.8a405fc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55fcd989.css",
-    "static/js/main.3a00489a.js"
+    "static/js/main.f7e988dd.js"
   ]
 }
