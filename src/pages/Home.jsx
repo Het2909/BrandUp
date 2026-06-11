@@ -12,7 +12,7 @@ const Home = () => {
     <main>
       <HeroSection />
       <ServicesSection />
-      {/* <PortfolioSection /> */}
+      <PortfolioSection />
       <CRMSection />
       <AboutSection />
     </main>
