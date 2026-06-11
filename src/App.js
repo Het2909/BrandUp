@@ -65,6 +65,7 @@ function App() {
           <Navbar />
           <PageWrapper>
             <Routes>
+              <BrowserRouter basename="/BrandUp"></BrowserRouter>
               <Route path="/" element={<Home />} />
               <Route path="/services" element={<Services />} />
               <Route path="/portfolio" element={<Portfolio />} />
