@@ -59,20 +59,18 @@ const PageWrapper = ({ children }) => {
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/BrandUp">
         <ScrollToTop />
         <div className="min-h-screen flex flex-col bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.08),transparent_28%),#f8fafc] dark:bg-[#060a1f] transition-fast">
           <Navbar />
           <PageWrapper>
             <Routes>
-              <BrowserRouter basename="/BrandUp">
                 <Route path="/" element={<Home />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/crm" element={<CRM />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
-              </BrowserRouter>
             </Routes>
           </PageWrapper>
           <Footer />
