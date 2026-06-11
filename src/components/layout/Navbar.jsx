@@ -3,6 +3,9 @@ import { Link, NavLink } from 'react-router-dom';
 import { HiMenu, HiX } from 'react-icons/hi';
 import ThemeToggle from '../ui/ThemeToggle';
 import { useTheme } from '../../context/ThemeContext';
+import logo2 from '../../assets/lightthemelogo.png';
+import logo1 from '../../assets/blackthemelogo.png';
+
 
 const navItems = [
   { label: 'Home', to: '/' },
@@ -23,10 +26,10 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-3 text-lg font-semibold tracking-tight text-slate-950 dark:text-white">
           {/* <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-brand-500 text-white shadow-glow">B</span> */}
           {theme === 'light' && (
-            <img src="../blackthemelogo.png" alt="Brandup Logo" className="h-11 w-auto" />
+            <img src={logo1} alt="Brandup Logo" className="h-11 w-auto" />
           )}
           {theme === 'dark' && (
-            <img src="../lightthemelogo.png" alt="Brandup Logo" className="h-11 w-auto" />
+            <img src={logo2} alt="Brandup Logo" className="h-11 w-auto" />
           )}
           {/* Brandup */}
         </Link>
